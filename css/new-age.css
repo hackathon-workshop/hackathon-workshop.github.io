@@ -53,11 +53,29 @@ h6 {
   font-weight: 200;
   letter-spacing: 1px;
 }
-p {
+p, .themelist li {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.themelist {
+  margin-bottom:50px;
+}
+
+.themelist li{
+  color:#666;
+}
+.themelist li strong{
+  color: #222;
+}
+
+.overviewlist {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
 .navbar-default {
   background-color: white;
   border-color: rgba(34, 34, 34, 0.05);
@@ -153,9 +171,10 @@ header {
   overflow-y: hidden;
   background: url("../img/hackathon.jpg");
   /* fallback for old browsers */
-  background: url("../img/bg-pattern.png"), -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,1)), url("../img/hackathon.jpg");
+  /* pattern overlay: url("../img/bg-pattern.png")*/
+  background:  -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,1)), url("../img/hackathon.jpg");
   /* Chrome 10-25, Safari 5.1-6 */
-  background: url("../img/bg-pattern.png"), linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,1)),url("../img/hackathon.jpg");
+  background:  linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,1)), url("../img/hackathon.jpg");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -255,7 +274,7 @@ section.download .badges .badge-link img {
   }
 }
 section.features .section-heading {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 section.features .section-heading h2 {
   margin-top: 0;
@@ -277,7 +296,7 @@ section.features .device-container {
   }
 }
 section.features .feature-item {
-  text-align: center;
+  text-align: justify;
   margin-bottom: 100px;
 }
 section.features .feature-item h3 {
@@ -331,7 +350,7 @@ section.cta .overlay {
   left: 0;
 }
 section.contact {
-  text-align: center;
+  text-align: left;
 }
 section.contact h2 {
   margin-top: 0;
@@ -395,8 +414,8 @@ footer ul li a.active {
 }
 .bg-primary {
   background: #fdcc52;
-  background: -webkit-linear-gradient(#fdcc52, #fdc539);
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: -webkit-linear-gradient(#2B456A, #0B486B);
+  background: linear-gradient(#2B456A, #0B486B);
 }
 .text-primary {
   color: #fdcc52;
@@ -408,6 +427,12 @@ footer ul li a.active {
 .btn-outline {
   color: white;
   border-color: white;
+  border: 1px solid;
+}
+
+.btn-white {
+  color: #666;
+  border-color: #666;
   border: 1px solid;
 }
 .btn-outline:hover,
@@ -427,6 +452,7 @@ footer ul li a.active {
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+  margin:20px 0;
 }
 ::-moz-selection {
   color: white;
@@ -449,3 +475,4 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #222222;
 }
+
