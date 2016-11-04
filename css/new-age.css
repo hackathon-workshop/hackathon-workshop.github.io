@@ -192,7 +192,7 @@ header .header-content .header-content-inner {
 header .header-content .header-content-inner h1 {
   margin-top: 0;
   margin-bottom: 30px;
-  font-size: 30px;
+  font-size: 45px;
 }
 header .header-content .header-content-inner .list-badges {
   margin-bottom: 25px;
@@ -225,7 +225,7 @@ header .device-container .screen img {
     transform: translateY(-50%);
   }
   header .header-content .header-content-inner h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
   header .device-container {
     max-width: none;
@@ -242,7 +242,7 @@ section {
   padding: 100px 0;
 }
 section h2 {
-  font-size: 50px;
+  font-size: 35px;
 }
 section.download {
   padding: 150px 0;
@@ -250,7 +250,7 @@ section.download {
 }
 section.download h2 {
   margin-top: 0;
-  font-size: 50px;
+  font-size: 35px;
 }
 section.download .badges .badge-link {
   display: block;
@@ -322,23 +322,30 @@ section.cta {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/bg-cta.jpg');
+  background-image: url('../img/portland.jpg');
   padding: 250px 0;
 }
 section.cta .cta-content {
   position: relative;
   z-index: 1;
+  color: white;
+}
+section.cta .cta-content h1 {
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 50px;
 }
 section.cta .cta-content h2 {
   margin-top: 0;
   margin-bottom: 25px;
-  color: white;
-  max-width: 450px;
-  font-size: 50px;
+  font-size: 35px;
 }
 @media (min-width: 768px) {
-  section.cta .cta-content h2 {
+  section.cta .cta-content h1 {
     font-size: 80px;
+  }
+  section.cta .cta-content h2 {
+    font-size: 35px;
   }
 }
 section.cta .overlay {
