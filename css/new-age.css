@@ -23,6 +23,7 @@ body {
 }
 body {
   font-family: 'Muli', 'Helvetica', 'Arial', 'sans-serif';
+
 }
 a {
   -webkit-transition: all 0.35s;
@@ -406,8 +407,7 @@ footer {
   background-color: #222222;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
-  text-align: center;
-}
+  text-align: center;}
 footer p {
   font-size: 12px;
   margin: 0;
