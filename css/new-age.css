@@ -285,7 +285,7 @@ section.features .section-heading p {
 }
 section.features .device-container,
 section.features .feature-item {
-  max-width: 300px;
+  
   margin: 0 auto;
 }
 section.features .device-container {
@@ -296,9 +296,14 @@ section.features .device-container {
     margin-bottom: 0;
   }
 }
-section.features .feature-item {
+
+section.features .container {
+    margin-bottom: 50px;
+
+}
+section.features .feature-item{
   text-align: justify;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 section.features .feature-item h3 {
   font-size: 30px;
