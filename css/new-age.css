@@ -90,7 +90,7 @@ p, .themelist li {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
   letter-spacing: 1px;
-  color: #fdcc52;
+  color: #222222;
 }
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -113,11 +113,12 @@ p, .themelist li {
 }
 .navbar-default .nav > li > a:hover,
 .navbar-default .nav > li > a:focus:hover {
-  color: #fdcc52;
+  color: #DE9B20;
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #fdcc52 !important;
+  color: #DE9B20 !important;
+  font-weight:bold;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -153,7 +154,7 @@ p, .themelist li {
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
   .navbar-default.affix .navbar-header .navbar-brand:focus {
-    color: #fdcc52;
+    color: #DE9B20;
   }
   .navbar-default.affix .nav > li > a,
   .navbar-default.affix .nav > li > a:focus {
@@ -161,7 +162,7 @@ p, .themelist li {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #fdcc52;
+    color: #DE9B20;
   }
 }
 header {
@@ -242,7 +243,7 @@ section {
   padding: 100px 0;
 }
 section h2 {
-  font-size: 35px;
+  font-size: 50px;
 }
 section.download {
   padding: 150px 0;
@@ -342,7 +343,7 @@ section.cta .cta-content h2 {
 }
 @media (min-width: 768px) {
   section.cta .cta-content h1 {
-    font-size: 80px;
+    font-size: 60px;
   }
   section.cta .cta-content h2 {
     font-size: 35px;
@@ -446,7 +447,7 @@ footer ul li a.active {
 .btn-outline:focus,
 .btn-outline:active,
 .btn-outline.active {
-  color: white;
+  color: #836914;
   background-color: #fdcc52;
   border-color: #fdcc52;
 }
