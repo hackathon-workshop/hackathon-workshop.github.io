@@ -174,9 +174,9 @@ header {
   background: url("../img/hackathon.jpg");
   /* fallback for old browsers */
   /* pattern overlay: url("../img/bg-pattern.png")*/
-  background:  -webkit-linear-gradient(top, rgba(0,0,0,0.7), rgba(0,0,0,1)), url("../img/hackathon.jpg");
+  background:  -webkit-linear-gradient(top, rgba(0,0,0,0.4), rgba(0,0,0,1)), url("../img/hackathon.jpg");
   /* Chrome 10-25, Safari 5.1-6 */
-  background:  linear-gradient(to top, rgba(0,0,0,0.7),rgba(0,0,0,1)), url("../img/hackathon.jpg");
+  background:  linear-gradient(to top, rgba(0,0,0,0.4),rgba(0,0,0,1)), url("../img/hackathon.jpg");
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: white;
 }
@@ -308,7 +308,7 @@ section.features .feature-item h3 {
 }
 section.features .feature-item i {
   font-size: 80px;
-  background: -webkit-linear-gradient(to left, #7b4397, #dc2430);
+  background: -webkit-linear-gradient(left, #7b4397, #dc2430);
   background: linear-gradient(to left, #7b4397, #dc2430);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -355,7 +355,8 @@ section.cta .cta-content h2 {
 section.cta .overlay {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)); 
   position: absolute;
   top: 0;
   left: 0;
