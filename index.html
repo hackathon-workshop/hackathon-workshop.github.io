@@ -28,6 +28,20 @@
     <!-- Theme CSS -->
     <link href="css/new-age.css" rel="stylesheet">
 
+    <style>
+    #schedule table{
+        border:1px solid;
+    }
+
+    #schedule th,td{
+        border:1px solid;
+        padding:5px;
+    }
+    #schedule th.time {
+        width:145px;
+    }
+    </style>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -62,7 +76,7 @@
                         <a class="page-scroll" href="#venue">Venue</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#apply">Apply</a>
+                        <a class="page-scroll" href="#schedule">Schedule</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#organizers">Organizers</a>
@@ -170,22 +184,21 @@
             <div class="container text-center">
                 <h1 class="text-center">Venue</h1>
                 <h2> Portland, Oregon <br/> Saturday, February 25th, 2017 </h2>
-                <p> 9AM-5PM </p>
+                <p> 9:00AM-5:30PM </p>
                 <p> As part of <a href="https://cscw.acm.org/2017/">CSCW 2017</a>: the ACM Conference on Computer Supported Co-Operative Work and Social Computing. <br/>
                 (Conference registration is NOT required to attend the workshop.) </p>
-                <p> Detailed schedule to appear here. </p>
 
-                <a href="#apply" class="btn btn-outline btn-xl page-scroll">Apply</a> <a href="CSCW_2017_Hackathon-Workshop-proposal.pdf" class="btn btn-outline btn-xl page-scroll"> Download full proposal </a>
+                <a href="#apply" class="btn btn-outline btn-xl page-scroll">Schedule</a> <a href="CSCW_2017_Hackathon-Workshop-proposal.pdf" class="btn btn-outline btn-xl page-scroll"> Download full proposal </a>
             </div>
         </div>
         <div class="overlay"></div>
     </section>
 
-    <section id="apply" class="contact bg-primary">
+    <section id="Schedule" class="contact bg-primary">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2 class="text-center">Apply</h2>
+                    <h2 class="text-center">Schedule</h2>
                 </div>
             </div>
             <!-- <div class="row">
@@ -222,8 +235,11 @@
 
             </div> -->
             <div class="row">
-                 <div class="col-md-12 section-heading">
-                    <p>Submissions for talks are now closed. However, there are still other ways to participate throughout the day. If you are interested, please <a href="mailto:hackathon.workshop@gmail.com">contact us</a> via e-mail and include: </p>
+                <div class="col-md-2 section-heading">
+                &nbsp;
+                </div>
+                 <div class="col-md-8">
+                    <!--<p>Submissions for talks are now closed. However, there are still other ways to participate throughout the day. If you are interested, please <a href="mailto:hackathon.workshop@gmail.com">contact us</a> via e-mail and include: </p>
 
 
                     <ol class="overviewlist">
@@ -234,7 +250,159 @@
                     
                     </ol>
 
-                    <p>The above information will help us make better suggestions about ways you may participate.</p>
+                    <p>The above information will help us make better suggestions about ways you may participate.</p>-->
+
+                    <table id="schedule">
+                    <tr>
+                        <th class='time'>Time</th>
+                        <th>Activity</th>
+                    </tr>
+                    <tr>
+                        <td>
+                        09:00AM - 10:00AM
+                        </td>
+                        <td>
+                        Boaster introductions (2 minutes each, no slides)
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        10:00AM - 10:30AM
+                        </td>
+                        <td>
+                        "A Typology of Hackathon Events" <a href="https://drive.google.com/open?id=0B0ba96_UwEK8N09zOFBTWEwtaU0">PDF</a><br/>
+                        Margaret Drouhard, Anissa Tanweer and Brittany Fiore-Gartland<br/><br/>
+                        Discussant: Victoria Schwanda Sosik <a href="https://drive.google.com/open?id=0B2RU_HmBVRGWTHEzX3E5MGE2V1k">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        10:30AM - 11:00AM
+                        </td>
+                        <td>
+                        COFFEE BREAK
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        11:00AM - 11:30AM
+                        </td>
+                        <td>
+                        "Community and Code: Lessons from NESCent hackathons" <!--a href="#">PDF</a--><br/>
+                        Arlin Stoltzfus<br/><br/>
+                        Discussant: Dannon Baker <!--a href="#">PDF</a-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        11:30AM - 12:00PM
+                        </td>
+                        <td>
+                        "The CHI4Good Day of Service: What is Produced?" <a href="https://drive.google.com/open?id=0B3Th081rUEgbeDBwSzNZQ3hqMWs">PDF</a><br/>
+                        Emily Porter, Chris Bopp, Elizabeth Gerber and Amy Voida<br/><br/>
+                        Discussant: Kenny Joseph <a href="https://drive.google.com/open?id=0BwQ2bHQmYb9xeXNpZWc0X0k2SzA">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        12:00PM - 12:30PM
+                        </td>
+                        <td>
+                        "Building Something Amazing: 4 years of Ohio State's Hackathon Program" <!--a href="#">PDF</a--><br/>
+                        Arnab Nandi and Meris Mandernach<br/><br/>
+                        Discussant: Erin Hoffman <!--a href="#">PDF</a-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        12:30PM - 02:00PM
+                        </td>
+                        <td>
+                        LUNCH
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        02:00PM - 02:30PM
+                        </td>
+                        <td>
+                        OPEN SPACE 1
+                        <ul>
+                            <li>Stephen Scallen <!--a href="#">PDF</a-->, Microsoft "HackBox" demo</li>
+                            <li>Your content here. Propose an "unconference" style breakout topic/activity during your 2 minute boaster.</li>
+                        </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        02:30PM - 03:00PM
+                        </td>
+                        <td>
+                        OPEN SPACE 2
+                        <ul>
+                        <li>Victoria Schwanda Sosik <a href="https://drive.google.com/open?id=0B2RU_HmBVRGWTHEzX3E5MGE2V1k">PDF</a>, Hands-on exercise(s) from Google's sprint approach</li>
+                        <li>Your content here. Propose an "unconference" style breakout topic/activity during your 2 minute boaster.</li>
+                        </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        03:00PM - 03:30PM
+                        </td>
+                        <td>
+                        "Participatory Research in Open Science Events" <a href="https://drive.google.com/open?id=0B6_ZVUFx2WHHNW84NEpOOFRRT3c">PDF</a><br/>
+                        Aurelia Moser<br/><br/>
+                        Discussant: Vassilis-Javed Khan <!--a href="#">PDF</a-->
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        03:30PM - 04:00PM
+                        </td>
+                        <td>
+                        COFFEE BREAK
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        04:00PM - 04:30PM
+                        </td>
+                        <td>
+                        "Community Data Science Workshop" <a href="https://drive.google.com/open?id=13JzYkbrUtBcV5ODq7XkE1jN2MpDQIv1rq7E5Ehaig60">PDF</a><br/>
+                        Jonathan Morgan, Dharma Dailey and Mako Hill<br/><br/>
+                        Discussant: Brittany Fiore-Gartland <a href="https://drive.google.com/open?id=0B0ba96_UwEK8N09zOFBTWEwtaU0">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        04:30PM - 05:00PM
+                        </td>
+                        <td>
+                        Panel: Ryan Curtin <a href="https://drive.google.com/open?id=0B8dtDGK-4wZeZVM3OXBzUTBkaG8">PDF</a> & Chris Holgraf <a href="https://drive.google.com/open?id=0B-p14b-uBUeYdEl1R0w5WVBrZ3c">PDF</a><br/>
+                        Docathon March 2017, community building challenges in scientific projects through Google Summer of Code<br/><br/>
+                        Discussant: Erik Trainer <a href="https://drive.google.com/open?id=0BwBVENCw-KfDaFV5cU5nbFk3Mlk">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        05:00PM - 05:30PM
+                        </td>
+                        <td>
+                        WRAP-UP<br/>
+                        Synthesis of works presented, summary of insights, and concrete next steps for action
+                        Discussant: Anna Filippova <a href="https://drive.google.com/open?id=0BwBVENCw-KfDaFV5cU5nbFk3Mlk">PDF</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                        07:00PM onwards
+                        </td>
+                        <td>
+                        DINNER / SOCIAL OFFSITE
+                        </td>
+                    </tr>
+
+                </table>
                    
 
                     <p class="text-center"><a href="#organizers" class="btn btn-outline btn-xl page-scroll">About the organizers</a></p>
